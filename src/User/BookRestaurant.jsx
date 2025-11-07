@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import { useNavigate, useParams } from "react-router-dom";
 import Unavbar from "./Unavbar";
-import "./Bookhotel.css";
+import "./bookhotel.css";
 
 function BookRestaurant() {
   const [item, setItem] = useState({});

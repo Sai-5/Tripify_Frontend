@@ -282,8 +282,7 @@ function BookHotel() {
                 <p>
                   {" "}
                   ₹{" "}
-                  {parseInt(quantity * (item.price?.[selectedSuite] || 0)) +
-                    45}
+                  {parseInt(quantity * (item.price?.[selectedSuite] || 0)) + 45}
                 </p>
               </div>
             </div>
